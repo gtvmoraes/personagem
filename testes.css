@@ -1,0 +1,92 @@
+<!--foto1-->
+<div class="fundo1">
+  <div class="txt">
+      <img id="titulo" src="showlogofundo.png" alt="">
+      <p>"O Incrível Mundo de Gumball" é uma série de animação do Cartoon Network 
+          que segue as aventuras de Gumball Watterson, um gato azul de 12 anos, 
+          e seu irmão adotivo Darwin, um peixe com pernas, enquanto enfrentam 
+          situações absurdas e engraçadas na cidade fictícia de Elmore. 
+          Juntos com sua família excêntrica, composta pela mãe Nicole, 
+          o pai Richard e a irmã superinteligente Anais, eles vivem episódios
+          cheios de humor irreverente, abordando temas como amizade e os desafios da infância.
+           A série se destaca por seu estilo de animação único, que mistura diferentes técnicas 
+           e é conhecida por seu ritmo rápido, piadas rápidas e seu apelo tanto para crianças quanto para adultos.</p>
+  </div>
+  <div class="family">
+<img src="gummble.webp" alt="">
+</div>
+</div>
+
+
+<!--Fundo2-->
+<div class="container text-center">
+<div class="row row-cols-2">
+  <div class="col"><img src="Pequeno_gumball.webp" alt=""></div>
+  <div class="col">Column</div>
+  <div class="col">Column</div>
+  <div class="col">Column</div>
+</div>
+</div>
+
+
+
+
+/*fundo1*/
+.fundo1 {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .txt {
+    background-color: #fff;
+    height: 370px;
+    width: auto;
+    margin-top: 100px;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    margin-left: 100px;
+    font-size: 20px;
+  }
+  
+  .family {
+    margin-bottom: 100px;
+    width: 50%;
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+    position: relative;
+    right: 300px;
+  }
+  .fundo1{
+    background-color: rgb(201, 231, 248);
+  }
+  .fundo1 img {
+    height: 80%;
+    width: auto;
+  }
+  
+  #titulo {
+    height: 70px;
+    margin-bottom: 20px;
+  }
+
+  /*Fundo2*/
+  .fundo2 {
+   background-color: #fff;
+  }
+  
+  .fundo2 img {
+    height: 100px;
+    max-width: 100%;
+  }
+  
+  
+  .img2{
+    align-items: center;
+  }
+
+  
+  
